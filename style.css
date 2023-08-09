@@ -1,0 +1,89 @@
+body {
+    background-color: #322d32;
+  }
+
+  h2 {
+    color: #2a2a2a; /* Set the text color */
+    font-family: 'Times New Roman', Times, serif; /* Set the font */
+    font-size: 28px; /* Adjust the font size */
+    text-align: center; /* Center-align the headline */
+    /* Add any other desired styles */
+  }
+
+  h3 {
+    color: #2a2a2a; /* Set the text color */
+    font-family: 'Times New Roman', Times, serif; /* Set the font */
+    font-size: 24px; /* Adjust the font size */
+    text-align: center; /* Center-align the headline */
+    /* Add any other desired styles */
+  }
+
+  /* Link styles */
+  a:link {
+    color: #452d2d;
+    text-decoration: none;
+  
+  }
+
+  a:visited {
+    color: #452d2d;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9e6f6f;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #452d2d;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+#cardButton
+{
+    background-color: #e0e0e0;
+    border: none;
+    color: #2a2a2a;
+    padding: 10px 30px;
+    /* rounded corners */
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Set the font */
+    font-size: 18px; /* Adjust the font size */
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+#readingContainer {
+    text-align: center;
+    /*container maximum width 800px, scales down */
+    max-width: 800px;
+
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e0e0e0; /* default color */
+    padding: 8px;
+    /* rounded corners */
+    border-radius: 15px;
+
+    /* center the  */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    /*max size of illustration 600px wide set in script.js*/
+
+}
